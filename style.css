@@ -1,0 +1,296 @@
+body{
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.caixaprincipal{
+    width: 20rem;
+    height: 30rem;
+    padding: 0.5rem;
+    backdrop-filter: blur(16px) saturate(155%);
+    -webkit-backdrop-filter: blur(16px) saturate(155%);
+    background-color: rgba(19, 19, 19, 0.82);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+h3{
+    font: normal 16pt monospace;
+    height: 5px;
+}
+p{
+    font-family: monospace;
+}
+.foto{
+    width: 7rem;
+    border-radius: 100%;
+}
+.linksredes{
+    display: flex;
+    flex-direction: column;
+}
+.linksredes a{
+    height: 50px;
+}
+.twitter {
+    --color: #3574bd;
+    font: bold;
+    background-color: #262626;
+    display: inline-block;
+    width: 8em;
+    height: 2em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   .twitter:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .twitter:hover {
+    color: #fff;
+   }
+   
+   .twitter:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .twitter:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .twitter:active:before {
+    background: #0c6ca3;
+    transition: background 0s;
+   }
+   .twitter a{
+    text-decoration: none;
+   }
+
+   .instagram {
+    --color: #bd3569;
+    font: bold;
+    background-color: #262626;
+    display: inline-block;
+    width: 8em;
+    height: 2em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   .instagram:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .instagram:hover {
+    color: #fff;
+   }
+   
+   .instagram:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .instagram:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .instagram:active:before {
+    background: var(--color);
+    transition: background 0s;
+   }
+    .instagram a{
+    text-decoration: none;
+   }
+
+   .telegram {
+    --color: #42839c;
+    font: bold;
+    background-color: #262626;
+    display: inline-block;
+    width: 8em;
+    height: 2em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   .telegram:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .telegram:hover {
+    color: #fff;
+   }
+   
+   .telegram:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .telegram:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .telegram:active:before {
+    background: var(--color);
+    transition: background 0s;
+   }
+   .telegram a{
+    text-decoration: none;
+   }
+
+   .tiktok {
+    --color: #c75151;
+    font: bold;
+    background-color: #262626;
+    display: inline-block;
+    width: 8em;
+    height: 2em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   .tiktok:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .tiktok:hover {
+    color: #fff;
+   }
+   
+   .tiktok:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .tiktok:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .tiktok:active:before {
+    background: var(--color);
+    transition: background 0s;
+   }
+   .tiktok a{
+    text-decoration: none;
+   }
+
+   .github {
+    --color: #000000;
+    font: bold;
+    background-color: #262626;
+    display: inline-block;
+    width: 8em;
+    height: 2em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   .github:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .github:hover {
+    color: #fff;
+   }
+   
+   .github:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .github:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .github:active:before {
+    background: var(--color);
+    transition: background 0s;
+   }
+   
+   .github a{
+    text-decoration: none;
+   }
