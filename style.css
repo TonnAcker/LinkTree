@@ -112,3 +112,6 @@ body{
     display: flex;
     margin: 0 auto;
    }
+   h3{
+    font-weight: lighter;
+   }
