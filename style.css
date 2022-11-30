@@ -95,6 +95,11 @@ body{
     margin-right: 0.8rem;
     margin-top: 0.2rem;
    }
+   .mainseries a:hover{
+    background-color: #242424ad;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 0.5rem;
+   }
    a img{
     width: 4.2rem;
     border-radius: 15%;
@@ -111,7 +116,35 @@ body{
     font-size: 1.1rem;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 3px;
    }
    h3{
     font-weight: lighter;
+   }
+   .links{
+    text-align: start;
+
+   }
+   .links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   }
+   .links li svg{
+    margin-right: 1rem;
+
+   }
+   .links li{
+    padding: 0.3rem;
+    width: 50%;
+   }
+   .links li:hover{
+    background-color: #242424;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 0.5rem;
+    letter-spacing: 0.1rem;
+   }
+   .links ul li a{
+    display: flex;
+    align-items: center;
    }
